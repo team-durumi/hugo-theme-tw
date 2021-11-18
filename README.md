@@ -2,6 +2,9 @@
 
 Based on [bep/hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic)
 
+
+## development
+
 ```
 hugo mod init github.com/team-durumi/hugo-theme-tw
 hugo new site exampleSite
@@ -16,4 +19,11 @@ google-font-downloader https://fonts.googleapis.com/css2?family=Gothic+A1:wght@5
 - yzhang.markdown-all-in-one
 - bradlc.vscode-tailwindcss
 - csstools.postcss
+
+# Run server.
+
+$ git clone https://github.com/team-durumi/hugo-theme-tw.git
+$ cd hugo-theme-tw/exampleSite
+$ npm i && hugo serve
+# open http://localhost:1313
 ```
