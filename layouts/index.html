@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- `<!-- /index.html  -->` | safeHTML -}}
-<div class="container-prose">
+<div class="container-prose bg-red-500">
 {{ .Content }}
 {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
   {{ .Render "summary" }}

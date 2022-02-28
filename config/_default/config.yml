@@ -3,8 +3,7 @@ title: Project
 languageCode: ko-kr
 defaultContentLanguage: ko
 hasCJKLanguage: true
+enableRobotsTXT: false
 
 build:
   writeStats: true
-
-googleAnalytics:

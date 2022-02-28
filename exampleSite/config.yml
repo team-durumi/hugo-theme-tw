@@ -1,0 +1,14 @@
+title: Project
+
+params:
+  title: Project
+  description: Describe project.
+  images:
+
+module:
+  imports:
+  - path: github.com/team-durumi/hugo-theme-tw
+  replacements: "github.com/team-durumi/hugo-theme-tw -> ../.."
+
+build:
+  writeStats: true
